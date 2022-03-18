@@ -23,7 +23,7 @@ def request_url():
     print("详细内容：" + content)
 
 
-def time():
+def time():  #时间
     url = 'https://j1.pupuapi.com/client/product/storeproduct/detail/deef1dd8-65ee-46bc-9e18-8cf1478a67e9/db1fabfb-0892-4110-95f6-0f55f294358f'
     head = {
         'User-Agent': 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/53.0.2785.143 Safari/537.36'
